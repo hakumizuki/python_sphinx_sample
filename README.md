@@ -24,6 +24,7 @@ Just for testing purpose.
 
 **Usage**
 1. Run `python recognize.py <mode>`
+  - Set mode as `mic` for using microphone connected to your PC.
 1. It recognizes the speech in the wav file at `WAV_OUT` in constants.py and prints the text of the speech.
 
 ## install_deps.sh
