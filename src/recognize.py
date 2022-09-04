@@ -8,7 +8,7 @@ def main():
 
     # Get mode from args
     if len(sys.argv) > 2:
-        raise Exception('Too many args. (pass "mic" or don\'t pass to use "/audios/speech.wav" file)')
+        raise Exception(f'Too many args. (pass "mic" or don\'t pass to use "{WAV_OUT}" file)')
     elif len(sys.argv) == 2:
         mode = sys.argv[1]
 

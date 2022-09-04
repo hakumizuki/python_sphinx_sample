@@ -7,15 +7,6 @@ Voice recognition program sample.
 - https://www.voiptroubleshooter.com/open_speech/american.html
 
 # Scripts
-## recognize.py
-**Description**
-Generates a wav file which contains a speech.
-Just for testing purpose.
-
-**Usage**
-1. Run `python recognize.py "some speech"`
-1. It generates a wav file which contains a speech at "/audios/speech.wav".
-
 ## speech.py
 **Description**
 Generates a wav file which contains a speech.
@@ -23,8 +14,17 @@ Just for testing purpose.
 
 **Usage**
 1. Run `mkdir /path/to/python_sphinx_sample/audios`
-1. Run `python speech.py`
-1. It recognizes the speech in the wav file at "/audios/speech.wav" and prints the text of the speech.
+1. Run `python speech.py "some speech"`
+1. It generates a wav file which contains a speech at `WAV_OUT` in constants.py.
+
+## recognize.py
+**Description**
+Generates a wav file which contains a speech.
+Just for testing purpose.
+
+**Usage**
+1. Run `python recognize.py <mode>`
+1. It recognizes the speech in the wav file at `WAV_OUT` in constants.py and prints the text of the speech.
 
 ## install_deps.sh
 **Description**
