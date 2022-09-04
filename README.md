@@ -1,5 +1,5 @@
 # python_sphinx_sample
-okamaguro voice recognition program
+Voice recognition program sample.
 
 # Useful links
 
