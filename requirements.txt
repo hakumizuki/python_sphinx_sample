@@ -1,0 +1,8 @@
+# Run `pip install -r requirements.txt --upgrade` to install and upgrade requirements.
+SpeechRecognition==3.8.1
+pocketsphinx==0.1.15 # works offline
+PyAudio==0.2.11 # for microphone
+pydub==0.25.1 # for cutting wav files
+gTTS==2.2.4 # for speech generation
+
+flake8==4.0.1
